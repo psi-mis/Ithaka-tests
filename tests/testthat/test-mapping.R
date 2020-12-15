@@ -1,3 +1,495 @@
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'wlr9Ez023Jv'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'wlr9Ez023Jv'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'yI9Ocr9Svlz'), {
+    #' @description Testing events data mapping
+    expect_true('Negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'yI9Ocr9Svlz'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'Others', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'yI9Ocr9Svlz'), {
+    #' @description Testing events data mapping
+    expect_true('Others' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'Fc9SOtZa4KQ'), {
+    #' @description Testing events data mapping
+    expect_true('Negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Oraq', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'Fc9SOtZa4KQ'), {
+    #' @description Testing events data mapping
+    expect_true('Oraq' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'Fc9SOtZa4KQ'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'aw3U9Cocms7'), {
+    #' @description Testing events data mapping
+    expect_true('Negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Oraq', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'aw3U9Cocms7'), {
+    #' @description Testing events data mapping
+    expect_true('Oraq' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'aw3U9Cocms7'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'ygLeiYbDuLD'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'bp2K5XhDV8d'), {
+    #' @description Testing events data mapping
+    expect_true('Negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Oraq', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'bp2K5XhDV8d'), {
+    #' @description Testing events data mapping
+    expect_true('Oraq' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'Negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'j9YtVhI4hFe'), {
+    #' @description Testing events data mapping
+    expect_true('Negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Oraq', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'j9YtVhI4hFe'), {
+    #' @description Testing events data mapping
+    expect_true('Oraq' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'j9YtVhI4hFe'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'DmMwzY2ZwxG'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'YC3JtuoD88J'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'YC3JtuoD88J'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'bxQuGwzqCL9'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'RhLl4XCsNX3'), {
+    #' @description Testing events data mapping
+    expect_true('Negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Oraq', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'RhLl4XCsNX3'), {
+    #' @description Testing events data mapping
+    expect_true('Oraq' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'RhLl4XCsNX3'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'mH5GlzEeFrS'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'yxH1ViLKcRg'), {
+    #' @description Testing events data mapping
+    expect_true('Negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Oraq', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'yxH1ViLKcRg'), {
+    #' @description Testing events data mapping
+    expect_true('Oraq' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'yxH1ViLKcRg'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'peucsxmlEjH'), {
+    #' @description Testing events data mapping
+    expect_true('Negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'peucsxmlEjH'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'peucsxmlEjH'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'F0QIyuSENqX'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'unclear', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'BZbnqN0cLtl'), {
+    #' @description Testing events data mapping
+    expect_true('unclear' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'BZbnqN0cLtl'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'BZbnqN0cLtl'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'GDR42MVStTD'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'Pz63aes5zEa'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'V9dBE8quBAL'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'IRRRwwGpiQa'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Positive', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'MoiAUufKANe'), {
+    #' @description Testing events data mapping
+    expect_true('Positive' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'MoiAUufKANe'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'MoiAUufKANe'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'qKTmHd3agJx'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'jx2ylC4hrnU'), {
+    #' @description Testing events data mapping
+    expect_true('Negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'jx2ylC4hrnU'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'jx2ylC4hrnU'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'bq6HnzZzCEi'), {
+    #' @description Testing events data mapping
+    expect_true('Negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'bq6HnzZzCEi'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'bq6HnzZzCEi'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'muc09crT61S'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'KYLRXF84dhn'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'Ie33YL6yFtF'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'LmFYf2FlXSd'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'PvEMsU5vvdM'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'BLvJlhaOwCQ'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'positive', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'td4EHHtOvkh'), {
+    #' @description Testing events data mapping
+    expect_true('positive' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'td4EHHtOvkh'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'td4EHHtOvkh'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'UyZ3lMKtpWT'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'OsKfBeJaXQf'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 't0UFSs4q3MO'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'M6uDSdkf7JC'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'ZE86q7fHJXv'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Positive', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'cfGxT4n9LTd'), {
+    #' @description Testing events data mapping
+    expect_true('Positive' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'cfGxT4n9LTd'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'cfGxT4n9LTd'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'wuBOLwi9UlA'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'dKbEyXAkmhZ'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'I4f6zODrVxh'), {
+    #' @description Testing events data mapping
+    expect_true('Negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'I4f6zODrVxh'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'VPognfMU2jv'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'go59KJflajr'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'zjp727Ff5MG'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'zjp727Ff5MG'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'NgpvmsCyIGF'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'NgpvmsCyIGF'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'VpqDigtsXnS'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'uZH290VcckK'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'iBMRtLeKCGA'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'dDTMQXFI3WP'), {
+    #' @description Testing events data mapping
+    expect_true('Negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Oraq', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'dDTMQXFI3WP'), {
+    #' @description Testing events data mapping
+    expect_true('Oraq' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'dDTMQXFI3WP'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'k6w6ynbsLjA'), {
+    #' @description Testing events data mapping
+    expect_true('Negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'k6w6ynbsLjA'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'Wu83LiiCSmL'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'a6GgDhT3z8r'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'MWu0Z1nWbDQ'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'ZPEijNnLest'), {
+    #' @description Testing events data mapping
+    expect_true('Negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'ZPEijNnLest'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'ZPEijNnLest'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'JV5WSEdw7YF'), {
+    #' @description Testing events data mapping
+    expect_true('Negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'JV5WSEdw7YF'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'JV5WSEdw7YF'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Oraq', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'gyw3WSHxkRL'), {
+    #' @description Testing events data mapping
+    expect_true('Oraq' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'gyw3WSHxkRL'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'WDwxtrsQ5Jl'), {
+    #' @description Testing events data mapping
+    expect_true('Negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'WDwxtrsQ5Jl'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'WDwxtrsQ5Jl'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'M9m7nQI6DsQ'), {
+    #' @description Testing events data mapping
+    expect_true('Negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Oraq', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'M9m7nQI6DsQ'), {
+    #' @description Testing events data mapping
+    expect_true('Oraq' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'Online', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'M9m7nQI6DsQ'), {
+    #' @description Testing events data mapping
+    expect_true('Online' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'czlRvZQGGOS'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Oraq', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'kIV6I63m7dN'), {
+    #' @description Testing events data mapping
+    expect_true('Oraq' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'p1Zml3l6Zp3'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'p1Zml3l6Zp3'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'Cozjr89emFU'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'HQOdWwzCXws'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'sJtS8rZdRcQ'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'sJtS8rZdRcQ'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'qSwtTBAsroO'), {
+    #' @description Testing events data mapping
+    expect_true('Negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'qSwtTBAsroO'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'qSwtTBAsroO'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'xJszcLw3Twf'), {
+    #' @description Testing events data mapping
+    expect_true('Negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Oraq', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'xJszcLw3Twf'), {
+    #' @description Testing events data mapping
+    expect_true('Oraq' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'Physical', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'xJszcLw3Twf'), {
+    #' @description Testing events data mapping
+    expect_true('Physical' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'Q7gqI4eynbz'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'L6mfdlvx4MX'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'L6mfdlvx4MX'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'Oraq', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'eZP8ZZkp77J'), {
+    #' @description Testing events data mapping
+    expect_true('Oraq' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'Help', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'qHsvZHVAOpI'), {
+    #' @description Testing events data mapping
+    expect_true('Help' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'Positive', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'r0rnMe0vNYv'), {
+    #' @description Testing events data mapping
+    expect_true('Positive' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'r0rnMe0vNYv'), {
+    #' @description Testing events data mapping
+    expect_true('Insti' %in% c('Insti', 'Oraq', 'Sure_Check'))
+  }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'r0rnMe0vNYv'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
 test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'NjiMrBeStOo'), {
     #' @description Testing events data mapping
     expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
@@ -458,14 +950,6 @@ test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Ot
     #' @description Testing events data mapping
     expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
   }) 
-test_that(paste0('Test that ', 'negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'F7R31FjppNV'), {
-    #' @description Testing events data mapping
-    expect_true('negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
-  }) 
-test_that(paste0('Test that ', 'OraQuick', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'F7R31FjppNV'), {
-    #' @description Testing events data mapping
-    expect_true('OraQuick' %in% c('Insti', 'Oraq', 'Sure_Check'))
-  }) 
 test_that(paste0('Test that ', 'negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'bPGhMUK6UPY'), {
     #' @description Testing events data mapping
     expect_true('negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
@@ -481,6 +965,14 @@ test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Ot
 test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'iIHyHpk8BFf'), {
     #' @description Testing events data mapping
     expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
+test_that(paste0('Test that ', 'negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'F7R31FjppNV'), {
+    #' @description Testing events data mapping
+    expect_true('negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
+  }) 
+test_that(paste0('Test that ', 'OraQuick', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'F7R31FjppNV'), {
+    #' @description Testing events data mapping
+    expect_true('OraQuick' %in% c('Insti', 'Oraq', 'Sure_Check'))
   }) 
 test_that(paste0('Test that ', 'negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'zjmCVG37TG2'), {
     #' @description Testing events data mapping
@@ -514,6 +1006,10 @@ test_that(paste0('Test that ', 'Oraquick', ' is part of ', 'Insti, Oraq, Sure_Ch
     #' @description Testing events data mapping
     expect_true('Oraquick' %in% c('Insti', 'Oraq', 'Sure_Check'))
   }) 
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'Fk3RT8FDpbr'), {
+    #' @description Testing events data mapping
+    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
+  }) 
 test_that(paste0('Test that ', 'negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'wItK6RFsPh7'), {
     #' @description Testing events data mapping
     expect_true('negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
@@ -523,10 +1019,6 @@ test_that(paste0('Test that ', 'OraQuick', ' is part of ', 'Insti, Oraq, Sure_Ch
     expect_true('OraQuick' %in% c('Insti', 'Oraq', 'Sure_Check'))
   }) 
 test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'wItK6RFsPh7'), {
-    #' @description Testing events data mapping
-    expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
-  }) 
-test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'Fk3RT8FDpbr'), {
     #' @description Testing events data mapping
     expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
   }) 
@@ -798,11 +1290,11 @@ test_that(paste0('Test that ', 'Oraquick', ' is part of ', 'Insti, Oraq, Sure_Ch
     #' @description Testing events data mapping
     expect_true('Oraquick' %in% c('Insti', 'Oraq', 'Sure_Check'))
   }) 
-test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'S5cCpabOKlF'), {
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'lLKLAUEamUz'), {
     #' @description Testing events data mapping
     expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
   }) 
-test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'lLKLAUEamUz'), {
+test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'S5cCpabOKlF'), {
     #' @description Testing events data mapping
     expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
   }) 
@@ -817,20 +1309,4 @@ test_that(paste0('Test that ', 'Insti', ' is part of ', 'Insti, Oraq, Sure_Check
 test_that(paste0('Test that ', 'CBO', ' is part of ', 'Physical, Online, CBO, Others', ' Event uid: ', 'B2DPFrOoKYs'), {
     #' @description Testing events data mapping
     expect_true('CBO' %in% c('Physical', 'Online', 'CBO', 'Others'))
-  }) 
-test_that(paste0('Test that ', 'negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'Ra57kjN4B9n'), {
-    #' @description Testing events data mapping
-    expect_true('negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
-  }) 
-test_that(paste0('Test that ', 'OraQuick', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'Ra57kjN4B9n'), {
-    #' @description Testing events data mapping
-    expect_true('OraQuick' %in% c('Insti', 'Oraq', 'Sure_Check'))
-  }) 
-test_that(paste0('Test that ', 'negative', ' is part of ', 'Positive, Negative, Unclear, Did not disclose', ' Event uid: ', 'FrhqAuAcK3v'), {
-    #' @description Testing events data mapping
-    expect_true('negative' %in% c('Positive', 'Negative', 'Unclear', 'Did not disclose'))
-  }) 
-test_that(paste0('Test that ', 'OraQuick', ' is part of ', 'Insti, Oraq, Sure_Check', ' Event uid: ', 'FrhqAuAcK3v'), {
-    #' @description Testing events data mapping
-    expect_true('OraQuick' %in% c('Insti', 'Oraq', 'Sure_Check'))
   }) 
